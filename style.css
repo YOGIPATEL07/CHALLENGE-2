@@ -1,0 +1,149 @@
+h1, h2, h3{
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Sets the font size for all <p> elements */
+p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: black; /* Example font color for readability */
+}
+
+/* Sets the background image for the <body> element and applies a blur effect */
+body {
+    background-image: url('./psychedelic-paper-shapes-with-copy-space.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:brightness(1);
+    background-color: #EAEAEA;
+}
+
+/* Applies font styles to <h1>, <h2>, <h3>, and <li> elements */
+h1, h2, h3, li {
+    color: #000; /* Example font color for readability */
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+}
+
+/* Applies specific styles to <h1> elements */
+h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #000;
+}
+
+/* Changes font color on hover for <h1>, <h2>, <h3>, and <li> elements */
+h1:hover, h2:hover, h3:hover, li:hover {
+  
+    color: #000;
+}
+
+/* Styles the <header> element */
+header {
+    width: 90%;
+    border-radius: 40px;
+    margin: 0 auto;
+    background-color: #faca00;
+    text-align: center;
+}
+
+/* Styles the container element */
+.container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    z-index: 999;
+}
+
+/* Styles the color element */
+.color {
+    /* background-color: #EAEAEA; */
+    width: 100%;
+}
+
+/* Styles the me element */
+.me {
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Sets the width of the image element */
+.image {
+    width: 82vh;
+}
+
+/* Styles the <img> elements within <section> elements */
+section > img {
+    max-width: 87%;
+    height: 48vh;
+    filter: drop-shadow(2px 4px 6px black);
+    border-radius: 340px;
+    transition: transform 0.3s ease;
+    
+}
+
+/* Adds a scale transformation on hover for <img> elements */
+img:hover {
+    transform: scale(1.1);
+    filter:drop-shadow(4px 16px 36px black);
+}
+
+/* Styles the #h3 element */
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* Styles the <ul> elements within the container2 element */
+.container2 > ul {
+    display: flex;
+    justify-content: center;
+}
+ul > li:hover {
+    
+        transform: scale(1.1);
+}
+/* Styles the <li> elements within the <ul> elements in container2 */
+.container2 > ul > li {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+/* Applies styles to odd-numbered <li> elements */
+li:nth-child(odd) {
+    font-weight: bold;
+    border: 2px solid #000;
+    background: #074d97;
+    border-radius: 100px;
+}
+
+/* Applies styles to even-numbered <li> elements */
+li:nth-child(even) {
+    border: 2px solid #000;
+    background: #faca00;
+    border-radius: 100px;
+}
+
+/* Styles the .wrapper element */
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+/* Styles the <footer> element */
+footer {
+    padding: 1px;
+}
+
+/* Styles the <p> elements within <footer> */
+footer > p {
+    text-align: center;
+    color: #074d97;
+}
